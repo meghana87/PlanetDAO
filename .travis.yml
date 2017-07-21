@@ -5,7 +5,9 @@ language: node_js
 node_js:
 - '6'
 notifications:
-  slack: imaginea:1zYxqqdhfuHRpnKgD9I1VVgq
+  slack:
+    rooms:
+      secure: R+NfgONR8uRxwmZTM+h16FQN/osSxyUIwGwYCN0YgzMYWGUrsYHTgpwxLLmwPtOaaDkyWtrtwYyQEmH9mfGjHJkpYpJCiHxgSpomaGytHT7iq1yaJ7I8IfwWRpVHXne9sr78sX8nufoRmS8XiChlQeG8zORUAjeSJD1+emWZ33T11h/RYMi+C4ONsV7/qNA2MBleUrTL4r4BMKN3+rqmmgsnwce+sAozoAOeNISErWknX4rIx2/kEVEJhAYt/0G4mVSfLsXD0fLuh6u+Y2R1ZlQMYc82hN584BjqKvy+BnLfI3kBsCXUWp6X3gsgufUNjQJAykkZtBIju/YmfNd4KnOC8mM5+Tyusz4OD+W31DmT5+qM/g4jwQ9voyePM2qoP0FWLzC7n3rGPXh0tfNyfGpwWuJoMlkwAjF6CUMFuPW9jxJ9wOipFMXbzx1US+bz2jb6t9oVBKe64Szv97IW+qRs5C8f/lOIIb48ZS3f2uqIxxPuFNhLtj5MnADb4NiB91e1IzJqEpLR/XpQqWk1BspacTBVPVOFY7NDjJhYYDjg1MA/O1OGgYw32/gBcEwlE2nJ+u8sm/kjpiqROa7r7tptpXi05U4s1lZZM3lEg+NAC/4wjibIdJbb+qNhOYWdtxkL5KKTzq6i1U8lLso+NHVmKZbOAeaDrX7FVNcVnPY=
 before_install:
 - npm install truffle@3.2.5 -g
 - npm i -g ethereumjs-testrpc
